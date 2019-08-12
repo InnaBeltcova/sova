@@ -1,0 +1,81 @@
+html {
+  background: url(/img/heroImage.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Nunito";
+}
+.right, .opacity {
+
+  top: 0;
+  bottom: 0;
+}
+.right {
+    position: absolute;
+
+  width: 40%;
+  right: 7%;
+}
+.opacity {
+  background-color: white;
+  min-height: 100vh;
+  opacity: 0.8;
+  width: 50%;
+  right: 0;
+    position: fixed;
+}
+
+.logo {
+  width: 150px;
+  margin-left: 7%;
+}
+
+.welcome-message {
+  font-family: "Libre Baskerville";
+  font-size: 50px;
+  font-weight: bold;
+}
+.welcome-container {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.button {
+  display: inline-block;
+  margin-top: 20px;
+}
+.signup {
+  background-color: #0da1ce;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 4px;
+  margin: 0px 20px;
+}
+.signup-oj {
+  background-color: #f15a24;
+  padding: 5px 35px;
+  color: white;
+  border-radius: 4px;
+  margin: 20px 20px;
+}
+.button-container {
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+.intro {
+  font-size: 18px;
+}
+.italicize {
+  font-style: italic;
+  font-family: "Libre Baskerville";
+  font-size: 22px;
+}
+.bold {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: -22px;
+}
+.first-line {
+  margin-bottom: -50px;
+}

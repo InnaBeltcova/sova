@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="../css/auth.css">
+</head>
+<body>
+<div class="container">
+  <img src="../img/logoSovaWord.png" class="logo">
+    <p>Sign up with Facebook</p>
+    <p>or</p>
+    <form action="/signup" method="post">
+        <p>Sign up with Email</p>
+        <div class="left">
+          <div>
+            <label>first name</label>
+            <input type="text" class="form-control" name="first-name">
+          </div>
+          <div>
+            <label>email address</label>
+            <input type="text" class="form-control" name="last-name">
+          </div>
+          <div>
+            <label>create a password</label>
+            <input type="password" class="form-control" name="password">
+          </div>
+        </div>
+        <div class="right">
+          <div>
+              <label>last name</label>
+              <input type="text" class="form-control" name="last-name">
+          </div>
+          <div>
+              <label>location (city where you live)</label>
+              <input type="text" class="form-control" name="location">
+          </div>
+          <div>
+              <label>confirm your password</label>
+              <input type="password" class="form-control" name="confirm-password">
+          </div>
+        </div>
+        <div>
+            <label>please list locations for book transfer (approximate addresses)</label>
+            <input type="text" class="form-control full-input" name="transfer-add">
+        </div>
+        <button type="submit">Sign Up</button>
+        <p><a href="/">Cancel</a></p>
+        <p>Already have an account? <a href="/login">Log in</a></p>
+
+    </form>
+</div>
+</body>
+</html>
